@@ -17,6 +17,11 @@ public class PlayerCtrl : MonoBehaviour
     {
         //캡슐 콜라이더 컴포넌트 얻기
         cc = GetComponent<CharacterController>();
+
+        //커서 감추기
+        Cursor.visible = false;
+        //커서 위치 고정
+        Cursor.lockState = CursorLockMode.Locked;
     }
     void Update()
     {
