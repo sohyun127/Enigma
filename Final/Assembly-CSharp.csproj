@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerCtrl.cs" />
     <Compile Include="Assets\Scripts\CameraCtrl.cs" />
+    <Compile Include="Assets\Scripts\PistolBulletCtrl.cs" />
+    <Compile Include="Assets\Scripts\FireCtrl.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
