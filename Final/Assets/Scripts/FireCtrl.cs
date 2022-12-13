@@ -12,11 +12,13 @@ public class FireCtrl : MonoBehaviour
     public Transform firePos;
     //오디오 클립을 저장할 변수
     //public AudiClip fireSound;
+   
 
     //총구 화염 파티클
     ParticleSystem muzzleFlash;
     //AudioSource 컴포넌트를 저장할 변수
     //AudioSource _audio;
+
 
     private void Start()
     {
@@ -39,6 +41,7 @@ public class FireCtrl : MonoBehaviour
     {
         //Bullet 프리팹을 동적으로 생성
         Instantiate(bullet, firePos.position, firePos.rotation);
+
         //파티클 실행
         cartridge.Play();
         //총구 화염 파티클 실행

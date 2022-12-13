@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class PistolBulletCtrl : MonoBehaviour
 {
+    //ÃÑ¾ËÀÇ ÆÄ±«·Â
     public float damage = 20.0f;
+    //ÃÑ¾Ë ¹ß»ç ¼Óµµ
     public float speed = 1000.0f;
 
-    private void Start()
+    void Start()
     {
-        GetComponent<Rigidbody>().AddForce(transform.forward * speed);
+        GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * speed);
     }
 }
