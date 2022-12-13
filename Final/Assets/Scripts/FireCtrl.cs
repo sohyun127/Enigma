@@ -16,12 +16,12 @@ public class FireCtrl : MonoBehaviour
     //총구 화염 파티클
     ParticleSystem muzzleFlash;
     //AudioSource 컴포넌트를 저장할 변수
-    AudioSource _audio;
+    //AudioSource _audio;
 
     private void Start()
     {
         //firePos 하위에 있는 컴포넌트 추출
-        muzzleFlash = firePos.GetComponent<ParticleSystem>();
+        muzzleFlash = firePos.GetComponentInChildren<ParticleSystem>();
         //AudioSource 컴포넌트 추출
         //_audio = GetComponent<AudioSource>();
     }
