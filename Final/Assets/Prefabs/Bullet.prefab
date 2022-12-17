@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7883340981677775934}
-  - component: {fileID: 2926215077180357101}
   - component: {fileID: 1117680246887155466}
   - component: {fileID: 3523357786822423981}
   - component: {fileID: 3607631214036698473}
+  - component: {fileID: 7536647602708448231}
   m_Layer: 7
   m_Name: Bullet
   m_TagString: Bullet
@@ -35,20 +35,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2926215077180357101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4345938952054444280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb32e90a2c9bdd141a875a3fb4298d77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 20
-  speed: 1000
 --- !u!96 &1117680246887155466
 TrailRenderer:
   serializedVersion: 2
@@ -203,6 +189,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7536647602708448231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4345938952054444280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb32e90a2c9bdd141a875a3fb4298d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 20
+  speed: 1000
 --- !u!1001 &4983967605911254293
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -11,13 +11,13 @@ public class FireCtrl : MonoBehaviour
     //총알 발사 좌표
     public Transform firePos;
     //오디오 클립을 저장할 변수
-    //public AudiClip fireSound;
+    public AudioClip fireSound;
    
 
     //총구 화염 파티클
     ParticleSystem muzzleFlash;
     //AudioSource 컴포넌트를 저장할 변수
-    //AudioSource _audio;
+    AudioSource _audio;
 
 
     private void Start()
@@ -25,7 +25,7 @@ public class FireCtrl : MonoBehaviour
         //firePos 하위에 있는 컴포넌트 추출
         muzzleFlash = firePos.GetComponentInChildren<ParticleSystem>();
         //AudioSource 컴포넌트 추출
-        //_audio = GetComponent<AudioSource>();
+        _audio = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -47,6 +47,6 @@ public class FireCtrl : MonoBehaviour
         //총구 화염 파티클 실행
         muzzleFlash.Play();
         //사운드 발생
-        //_audio.PlayOneShot(fireSound, 1.0f);
+        _audio.PlayOneShot(fireSound, 1.0f);
     }
 }
