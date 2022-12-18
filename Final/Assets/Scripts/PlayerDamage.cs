@@ -11,9 +11,9 @@ public class PlayerDamage : MonoBehaviour
     //Hp Bar Image를 저장하기 위한 변수
     public Image hpBar;
     //생명 게이지의 처음 색상(녹색)
-    Color initColor = new Vector4(0, 0.1f, 0.0f, 1.0f);
+    Color initColor = new Vector4(0, 1.0f, 0.0f, 1.0f);
     Color currColor;
-
+    
 
     void Start()
     {
@@ -41,6 +41,20 @@ public class PlayerDamage : MonoBehaviour
             StartCoroutine(ShowBloodScreen());
             //생명 게이지의 색상 및 크기 변경함수를 호출
             DisplayHpbar(); 
+        }
+        
+        if(coll.collider.tag == "Heal")
+        {
+            if(currHp<100f)
+            {
+                Destroy(coll.gameObject,2.0f);
+                if ((currHp + 10f) <= 100)
+                    currHp += 10.0f;
+                else if ((currHp + 10f) > 100)
+                    currHp = 100;
+
+                Debug.Log("구급 상자로 치료되었습니다");
+            } 
         }
     }
 

@@ -32,6 +32,7 @@ public class EnemyFire : MonoBehaviour
     float damping = 10.0f;
     //√—æÀ πﬂªÁ º”µµ
     public float speed = 1000.0f;
+    //≈ı√¥
 
     void Start()
     {

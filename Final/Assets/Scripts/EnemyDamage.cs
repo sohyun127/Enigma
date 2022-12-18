@@ -7,7 +7,7 @@ public class EnemyDamage : MonoBehaviour
 {
 
     //생명 게이지
-    float hp = 100.0f;
+    public float hp = 100.0f;
     //피격시 사용할 혈흔 효과
     GameObject bloodEffect;
     //생명 게이지 프리팹을 저장할 변수
@@ -83,6 +83,23 @@ public class EnemyDamage : MonoBehaviour
         EnemyHpBar bar = hpBar.GetComponent<EnemyHpBar>();
         bar.targetTr = gameObject.transform;
         bar.offset = hpBarOffset;
+    }
+
+    //수류탄 데미지 적용
+    public void HitEnemy(int power)
+    {
+        hp -= power;
+        //생명 게이지의 fillAmount 속성을 변경
+        hpBarImage.fillAmount = hp / 100.0f;
+
+        if (hp <= 0.0f)
+        {
+            //적 캐릭터의 상태를 Die로 변경
+            GetComponent<EnemyAI>().state = EnemyAI.State.DIE;
+            //적 캐릭터가 사망한 이후 생명 게이지를 투명 처리
+            hpBarImage.GetComponentsInParent<Image>()[1].color = Color.clear;
+
+        }
     }
 
 }
