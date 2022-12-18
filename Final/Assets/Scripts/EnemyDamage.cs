@@ -18,6 +18,7 @@ public class EnemyDamage : MonoBehaviour
     private Canvas uiCanvas;
     //생명 수치에 따라 fillAmount 속성을 변경할 image
     private Image hpBarImage;
+    
 
     void Start()
     {
@@ -52,7 +53,8 @@ public class EnemyDamage : MonoBehaviour
                 GetComponent<EnemyAI>().state = EnemyAI.State.DIE;
                 //적 캐릭터가 사망한 이후 생명 게이지를 투명 처리
                 hpBarImage.GetComponentsInParent<Image>()[1].color = Color.clear;
-                
+                Destroy(gameObject,5);
+
             }
         }
 
@@ -85,7 +87,7 @@ public class EnemyDamage : MonoBehaviour
         bar.offset = hpBarOffset;
     }
 
-    //수류탄 데미지 적용
+    //수류탄 데미지,스나이퍼 데미지 적용
     public void HitEnemy(int power)
     {
         hp -= power;
@@ -98,7 +100,7 @@ public class EnemyDamage : MonoBehaviour
             GetComponent<EnemyAI>().state = EnemyAI.State.DIE;
             //적 캐릭터가 사망한 이후 생명 게이지를 투명 처리
             hpBarImage.GetComponentsInParent<Image>()[1].color = Color.clear;
-
+            Destroy(gameObject,5);
         }
     }
 

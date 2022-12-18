@@ -25,7 +25,7 @@ public class BombAction : MonoBehaviour
     }
 
     // 충돌했을 때의 처리
-    private void OnCollisionEnter(Collision collision)
+  void OnCollisionEnter(Collision collision)
     {
        
 
