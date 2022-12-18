@@ -15,11 +15,11 @@ C:/Users/so405/Desktop/3d 기말 프로젝트/Enigma/Final
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57899
+54142
 Successfully changed project path to: C:/Users/so405/Desktop/3d 기말 프로젝트/Enigma/Final
 C:/Users/so405/Desktop/3d 기말 프로젝트/Enigma/Final
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Resources/UnitySubsystems
@@ -37,73 +37,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002381 seconds.
+Registered in 0.002332 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.455 seconds
+- Completed reload, in  0.465 seconds
 Domain Reload Profiling:
-	ReloadAssembly (455ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (465ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (335ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (351ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (99ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (131ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (157ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (58ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (54ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003785 seconds.
+Registered in 0.004566 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.759 seconds
+- Completed reload, in  0.956 seconds
 Domain Reload Profiling:
-	ReloadAssembly (760ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (957ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (591ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (245ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (325ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (153ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -114,14 +114,14 @@ Worker process is ready to serve import requests
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1954 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.1 MB.
-System memory in use after: 93.2 MB.
+Unloading 4197 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.2 MB.
+System memory in use after: 188.4 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2405.
-Total: 2.848100 ms (FindLiveObjects: 0.167800 ms CreateObjectMapping: 0.038000 ms MarkObjects: 2.542200 ms  DeleteObjects: 0.099100 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4648.
+Total: 2.955500 ms (FindLiveObjects: 0.265100 ms CreateObjectMapping: 0.128900 ms MarkObjects: 2.449800 ms  DeleteObjects: 0.110600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -136,1195 +136,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/HQ Hangar Free/Scene
-  artifactKey: Guid(a5973778b8544de478fc27c532cb419b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene using Guid(a5973778b8544de478fc27c532cb419b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd8a4fa7cc210ea16bda5fb0914fff8') in 0.005340 seconds 
-  Import took 0.007770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/HQ Hangar Free/Scene/SampleScenePostProcessingSettings 1.asset
-  artifactKey: Guid(5971749ce91e000478c2e6203ef0290f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/SampleScenePostProcessingSettings 1.asset using Guid(5971749ce91e000478c2e6203ef0290f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768685fdcf771e1178721ed4324a84a7') in 0.023521 seconds 
-  Import took 0.026332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/HQ Hangar Free
-  artifactKey: Guid(af572e8c636c9ad4884c1d6efae9c32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free using Guid(af572e8c636c9ad4884c1d6efae9c32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd44bc57a389de3f1631f3011f0526b') in 0.002504 seconds 
-  Import took 0.004935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/HQ Hangar Free/Scene/SampleSceneSkyandFogSettings 1.asset
-  artifactKey: Guid(31804904cb936704c9eee3192745e574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/SampleSceneSkyandFogSettings 1.asset using Guid(31804904cb936704c9eee3192745e574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfedea981271d36a550f2c93f0a8fc6a') in 0.004312 seconds 
-  Import took 0.007569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/HQ Hangar Free/Scene/HDRPHighQuality.asset
-  artifactKey: Guid(36dd385e759c96147b6463dcd1149c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/HDRPHighQuality.asset using Guid(36dd385e759c96147b6463dcd1149c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd6dc0bc70bb76db2e77d0c9ccf3ab4') in 0.004678 seconds 
-  Import took 0.008094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.646091 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene.unity
-  artifactKey: Guid(26411d937a2ad2d42ba12b6d41011915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene.unity using Guid(26411d937a2ad2d42ba12b6d41011915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35dd298910ea7c4ba27e2c4d5ca02ab') in 0.010011 seconds 
-  Import took 0.012762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.121531 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene
-  artifactKey: Guid(7c925f019dc19d4479d93e36f36f6a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene using Guid(7c925f019dc19d4479d93e36f36f6a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461257773a9c81414d111be398a9de58') in 0.004764 seconds 
-  Import took 0.007642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.038198 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/LightingData.asset
-  artifactKey: Guid(81c5ea32a064b474693beab2c51d90e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/LightingData.asset using Guid(81c5ea32a064b474693beab2c51d90e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e828d9ad4e56649aa54bab545f4bd0b') in 0.004045 seconds 
-  Import took 0.007082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-9_comp_dir.png
-  artifactKey: Guid(3e652bf11519f3f409f6ee734dcd23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-9_comp_dir.png using Guid(3e652bf11519f3f409f6ee734dcd23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d00619d3a7b938ea5a15c46ab9b6947') in 0.037343 seconds 
-  Import took 0.039988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-24_comp_light.exr
-  artifactKey: Guid(d8904d1312d6fad4ebffc7b68f9acb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-24_comp_light.exr using Guid(d8904d1312d6fad4ebffc7b68f9acb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5fc3e74bcd096d347650452820bb228') in 0.034386 seconds 
-  Import took 0.036822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-7_comp_light.exr
-  artifactKey: Guid(9d0b615149affa748a1afd926f6bf20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-7_comp_light.exr using Guid(9d0b615149affa748a1afd926f6bf20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c734ed3e04d24fe0d16b6666ebc01df') in 0.010778 seconds 
-  Import took 0.013527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-26_comp_light.exr
-  artifactKey: Guid(186fc8a31cd6964409fa67a2208b1253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-26_comp_light.exr using Guid(186fc8a31cd6964409fa67a2208b1253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7befae70daac54bdce50f05b05af86e9') in 0.008920 seconds 
-  Import took 0.012347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-28_comp_light.exr
-  artifactKey: Guid(0224a357093475a44a0416aaa0a370e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-28_comp_light.exr using Guid(0224a357093475a44a0416aaa0a370e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8704e839d39b9674d94def3628d61c3f') in 0.011882 seconds 
-  Import took 0.015844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-27_comp_dir.png
-  artifactKey: Guid(2f58f65b937c78a4eb53a88671745ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-27_comp_dir.png using Guid(2f58f65b937c78a4eb53a88671745ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71b00c5806d644147d3a1770fb8ac5a') in 0.009581 seconds 
-  Import took 0.013273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-13_comp_dir.png
-  artifactKey: Guid(44d9f0a8b69e91344a986cf193e07934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-13_comp_dir.png using Guid(44d9f0a8b69e91344a986cf193e07934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d7b9e8f1c262532e8ac924a66a33d3') in 0.009648 seconds 
-  Import took 0.012774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-19_comp_light.exr
-  artifactKey: Guid(5d778da096172d6448ee15fc97717036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-19_comp_light.exr using Guid(5d778da096172d6448ee15fc97717036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399cd9d9c2cbce6f4e446ef11737b4bb') in 0.009765 seconds 
-  Import took 0.013772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-11_comp_light.exr
-  artifactKey: Guid(da4c18e008ef0f74ab09b94197170e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-11_comp_light.exr using Guid(da4c18e008ef0f74ab09b94197170e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66504422172f05031140e6604e84df9') in 0.010116 seconds 
-  Import took 0.013090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-9_comp_light.exr
-  artifactKey: Guid(222328dc8b025564ba55728db52f3ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-9_comp_light.exr using Guid(222328dc8b025564ba55728db52f3ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caec304d9bcb391e73902a5e45504383') in 0.009458 seconds 
-  Import took 0.013128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-14_comp_dir.png
-  artifactKey: Guid(07618d0cd352b8d46ad4d1a99bb1ee1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-14_comp_dir.png using Guid(07618d0cd352b8d46ad4d1a99bb1ee1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35150401a72c7dd2a5ea83e81126bca') in 0.009204 seconds 
-  Import took 0.012157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-29_comp_light.exr
-  artifactKey: Guid(d61673d7de5c7f442b779a6875608105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-29_comp_light.exr using Guid(d61673d7de5c7f442b779a6875608105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80b2315089427b9e190e184364176be') in 0.008069 seconds 
-  Import took 0.012371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-15_comp_light.exr
-  artifactKey: Guid(241cd6d195237af45a93878b9316292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-15_comp_light.exr using Guid(241cd6d195237af45a93878b9316292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7a52e0b8f2485880f69e9ec0033177') in 0.009260 seconds 
-  Import took 0.012981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-22_comp_dir.png
-  artifactKey: Guid(8bde368ead43a5947b7b0f25b25ec983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-22_comp_dir.png using Guid(8bde368ead43a5947b7b0f25b25ec983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3f0d97bad1b649e58109821454b867') in 0.011214 seconds 
-  Import took 0.014591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-6_comp_dir.png
-  artifactKey: Guid(4411676b7a4111548aa42d8499ec20e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-6_comp_dir.png using Guid(4411676b7a4111548aa42d8499ec20e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112bbe9850e5e12611b5480898337bcc') in 0.011211 seconds 
-  Import took 0.014127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-26_comp_dir.png
-  artifactKey: Guid(ed543019bec7f964aa43061b03101247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-26_comp_dir.png using Guid(ed543019bec7f964aa43061b03101247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8f7b98ec6e9574ca8b5ac78dd804bd') in 0.010067 seconds 
-  Import took 0.014365 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-10_comp_light.exr
-  artifactKey: Guid(0234485bc7fc872499bc7a2a02af2093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-10_comp_light.exr using Guid(0234485bc7fc872499bc7a2a02af2093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaed12155202437a887af1ac1a8ba24f') in 0.008486 seconds 
-  Import took 0.011717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-30_comp_dir.png
-  artifactKey: Guid(4baa341112171c04db4e0d25440bf5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-30_comp_dir.png using Guid(4baa341112171c04db4e0d25440bf5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a34fd167706103e04d53f311411e6ce') in 0.008580 seconds 
-  Import took 0.012577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-14_comp_light.exr
-  artifactKey: Guid(fd1c58679329e7d43b7c7a84e5698125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-14_comp_light.exr using Guid(fd1c58679329e7d43b7c7a84e5698125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23d9dbc3af0568aca9d5461aedb450a') in 0.008842 seconds 
-  Import took 0.012574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-1_comp_light.exr
-  artifactKey: Guid(4e46d4bf1bb62d446aa3d9159ce61c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-1_comp_light.exr using Guid(4e46d4bf1bb62d446aa3d9159ce61c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7eb3e3eb8611b375d317532b8bb7b4') in 0.009008 seconds 
-  Import took 0.012112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-4_comp_light.exr
-  artifactKey: Guid(5a7cdf7daead6d64eb06e751258dca5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-4_comp_light.exr using Guid(5a7cdf7daead6d64eb06e751258dca5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5874b409e7086a6a65e28eafe74a0d3') in 0.009025 seconds 
-  Import took 0.012577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-30_comp_light.exr
-  artifactKey: Guid(642a11d4cc2416949bce08701ded5bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-30_comp_light.exr using Guid(642a11d4cc2416949bce08701ded5bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7275d3a601f80606edbb45d67e2069f') in 0.008823 seconds 
-  Import took 0.012030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-6_comp_light.exr
-  artifactKey: Guid(2bc42523d7660a3488abf2871e28cee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-6_comp_light.exr using Guid(2bc42523d7660a3488abf2871e28cee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e162794c72d0da61d46752ce19d59a31') in 0.009140 seconds 
-  Import took 0.013382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-21_comp_dir.png
-  artifactKey: Guid(89fe457a8cc30b1498ddbb9b55349cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-21_comp_dir.png using Guid(89fe457a8cc30b1498ddbb9b55349cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b2c3616e8f04b443fa2fb121ef360b') in 0.009467 seconds 
-  Import took 0.013402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-4_comp_dir.png
-  artifactKey: Guid(115609a0f8236ac48b91801941fc925b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-4_comp_dir.png using Guid(115609a0f8236ac48b91801941fc925b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0170ba2ee3a63a5e0f4ac70c5c24c457') in 0.009331 seconds 
-  Import took 0.012381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-28_comp_dir.png
-  artifactKey: Guid(dd561fc4f241dc544919e1ecbc50a5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-28_comp_dir.png using Guid(dd561fc4f241dc544919e1ecbc50a5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc25554922def696dcdf6b1c706ae7b2') in 0.010872 seconds 
-  Import took 0.015890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-24_comp_dir.png
-  artifactKey: Guid(08f6b96fc30d8de43b1c663e3a04b41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-24_comp_dir.png using Guid(08f6b96fc30d8de43b1c663e3a04b41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95a699aa6e4caa45a898a03728b1650') in 0.008201 seconds 
-  Import took 0.011328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-22_comp_light.exr
-  artifactKey: Guid(e3108df2017eaa74f922b812bc81a1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-22_comp_light.exr using Guid(e3108df2017eaa74f922b812bc81a1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195611beeee5f0c060eb886ec9db8dd7') in 0.009910 seconds 
-  Import took 0.015282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-16_comp_light.exr
-  artifactKey: Guid(a0c5c858a76f0ce41a9c47116e5ba2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-16_comp_light.exr using Guid(a0c5c858a76f0ce41a9c47116e5ba2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cfef84e356d7ef2cb67ab5f9918e02') in 0.008799 seconds 
-  Import took 0.012376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-0_comp_dir.png
-  artifactKey: Guid(3786116abd3881542856013fde03abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-0_comp_dir.png using Guid(3786116abd3881542856013fde03abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1bee2721bccd63440ffcfca75eee38') in 0.011359 seconds 
-  Import took 0.014818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-23_comp_dir.png
-  artifactKey: Guid(fc02fbda645c345478d2ff264dc02609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-23_comp_dir.png using Guid(fc02fbda645c345478d2ff264dc02609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661350165cb5bcf6a75b8b8ff6394207') in 0.010117 seconds 
-  Import took 0.012960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-17_comp_dir.png
-  artifactKey: Guid(cb2ba22c250bc7245b129c5fc1339eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-17_comp_dir.png using Guid(cb2ba22c250bc7245b129c5fc1339eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941b41b05a20bc0a3f9f92a47952d1fc') in 0.009556 seconds 
-  Import took 0.013335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-25_comp_dir.png
-  artifactKey: Guid(4f457e9f247d1674c9c9160edc1855e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-25_comp_dir.png using Guid(4f457e9f247d1674c9c9160edc1855e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd550beae48e7f73ce8e28dab8ce01b7') in 0.009154 seconds 
-  Import took 0.012578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-20_comp_light.exr
-  artifactKey: Guid(1d7264083ef0361438d39632340fbbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-20_comp_light.exr using Guid(1d7264083ef0361438d39632340fbbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0912c34c97ba1164860ce94593ccb0') in 0.009580 seconds 
-  Import took 0.013435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-5_comp_light.exr
-  artifactKey: Guid(e686e0556c71d114cbff9efb374281ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-5_comp_light.exr using Guid(e686e0556c71d114cbff9efb374281ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45379af7db0817caa58d29d58705649a') in 0.009208 seconds 
-  Import took 0.012630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-16_comp_dir.png
-  artifactKey: Guid(a00ee1b9b876f584c9ea228ba78a8284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-16_comp_dir.png using Guid(a00ee1b9b876f584c9ea228ba78a8284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b04f5583f8d9e3fb9d2ab979708c73') in 0.009400 seconds 
-  Import took 0.012273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-11_comp_dir.png
-  artifactKey: Guid(0c23362ee074b6a4f845b50c2bed9d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-11_comp_dir.png using Guid(0c23362ee074b6a4f845b50c2bed9d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722dd863219bb9420173b91a05b06bde') in 0.010661 seconds 
-  Import took 0.014337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-5_comp_dir.png
-  artifactKey: Guid(35907239beb435343ae26b4f27e76ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-5_comp_dir.png using Guid(35907239beb435343ae26b4f27e76ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a1f39c729de54b2f5eb2f8ddc719cc') in 0.009913 seconds 
-  Import took 0.013414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-8_comp_dir.png
-  artifactKey: Guid(9b6a81117a2238246acb71475770b078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-8_comp_dir.png using Guid(9b6a81117a2238246acb71475770b078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b0a953de04b2aa22578f83913c1cff') in 0.009562 seconds 
-  Import took 0.013658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-21_comp_light.exr
-  artifactKey: Guid(eb3fb00f50615154ab9dfdc162688c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-21_comp_light.exr using Guid(eb3fb00f50615154ab9dfdc162688c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4216c3030ca791b2f5a0367f6b6cdb06') in 0.009352 seconds 
-  Import took 0.012792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-23_comp_light.exr
-  artifactKey: Guid(34eae6263b8258747b09c3038b56d71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-23_comp_light.exr using Guid(34eae6263b8258747b09c3038b56d71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c46c7556a4cfe826397183989c02f3') in 0.009542 seconds 
-  Import took 0.012640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-12_comp_dir.png
-  artifactKey: Guid(725ff57a987040448b4566439356a97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-12_comp_dir.png using Guid(725ff57a987040448b4566439356a97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53151eed682860e4a70b106fb0cf5085') in 0.010726 seconds 
-  Import took 0.013645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-3_comp_dir.png
-  artifactKey: Guid(eb52a6481239cd147b4d29aad63f43f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-3_comp_dir.png using Guid(eb52a6481239cd147b4d29aad63f43f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f9e336f58d7324ad63aa29a6921cb1') in 0.009443 seconds 
-  Import took 0.012532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-12_comp_light.exr
-  artifactKey: Guid(c5d812724c4fa154eb4f4771358d460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-12_comp_light.exr using Guid(c5d812724c4fa154eb4f4771358d460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775e9f10752c7a063daf2b2423c9c684') in 0.009061 seconds 
-  Import took 0.012999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-27_comp_light.exr
-  artifactKey: Guid(fc8dacd9783e0c6469082c97856a3cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-27_comp_light.exr using Guid(fc8dacd9783e0c6469082c97856a3cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba476fcab09d87004e336a5344df54a4') in 0.012147 seconds 
-  Import took 0.015759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-0_comp_light.exr
-  artifactKey: Guid(9f46f8e81664def4c91d83e02bb35d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-0_comp_light.exr using Guid(9f46f8e81664def4c91d83e02bb35d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e517c4b79d331a5c119d1aea5e7d350') in 0.009569 seconds 
-  Import took 0.012470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-25_comp_light.exr
-  artifactKey: Guid(ec7e03dcd596c5d4ba2a662d6387d6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-25_comp_light.exr using Guid(ec7e03dcd596c5d4ba2a662d6387d6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7089662198c3bb0d1e834792686045f') in 0.009955 seconds 
-  Import took 0.012945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-31_comp_light.exr
-  artifactKey: Guid(72f8157ff2b96764485a704a78a13cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-31_comp_light.exr using Guid(72f8157ff2b96764485a704a78a13cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623739e014376d4bfc2958f5088acb12') in 0.008279 seconds 
-  Import took 0.012029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-2_comp_light.exr
-  artifactKey: Guid(511da33083209bd4e83b48cd3312a77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-2_comp_light.exr using Guid(511da33083209bd4e83b48cd3312a77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372713bedefc6552a066fe9b57ee1b0d') in 0.008803 seconds 
-  Import took 0.012473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000575 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-18_comp_dir.png
-  artifactKey: Guid(0d56d5f5790ff17498b1467f12145b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-18_comp_dir.png using Guid(0d56d5f5790ff17498b1467f12145b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de492be94c7c435b66b2d3b68a663fec') in 0.009822 seconds 
-  Import took 0.013834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-19_comp_dir.png
-  artifactKey: Guid(f7c72366d26446346b707b41efafac64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-19_comp_dir.png using Guid(f7c72366d26446346b707b41efafac64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6abf908ad2654f4550a3a5479d6a9f') in 0.011080 seconds 
-  Import took 0.014370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-1_comp_dir.png
-  artifactKey: Guid(2468d5a70a68c6a4882ce69632658a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-1_comp_dir.png using Guid(2468d5a70a68c6a4882ce69632658a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c3ff695309bf0d00d468e01309388b') in 0.011638 seconds 
-  Import took 0.015663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-34_comp_dir.png
-  artifactKey: Guid(64574de694af4794596877f6faded00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-34_comp_dir.png using Guid(64574de694af4794596877f6faded00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b6137d960658f6d83cb79a74075f10') in 0.010256 seconds 
-  Import took 0.013003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-39_comp_dir.png
-  artifactKey: Guid(9aee50c53b0421441a1689ed079ad2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-39_comp_dir.png using Guid(9aee50c53b0421441a1689ed079ad2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cef14ed4b683ebd2eb85ec5b887d65') in 0.009115 seconds 
-  Import took 0.012779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-37_comp_light.exr
-  artifactKey: Guid(3bfa0dec102abe647b06c31bfd3aee55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-37_comp_light.exr using Guid(3bfa0dec102abe647b06c31bfd3aee55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1e5761a6dd81cff5154c8592297cd3') in 0.008554 seconds 
-  Import took 0.011870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-40_comp_dir.png
-  artifactKey: Guid(390c08cd560085245adba7904c200067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-40_comp_dir.png using Guid(390c08cd560085245adba7904c200067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f19b573b4950b716444b71c30dd14b1') in 0.009812 seconds 
-  Import took 0.013457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-44_comp_light.exr
-  artifactKey: Guid(a65d6c5f147467d4e8c569f479841b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-44_comp_light.exr using Guid(a65d6c5f147467d4e8c569f479841b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a71cd9f79989d2e9d92060e01311bc') in 0.009009 seconds 
-  Import took 0.012196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-42_comp_light.exr
-  artifactKey: Guid(e6901eedd2b056e4eb15bedd6096dacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-42_comp_light.exr using Guid(e6901eedd2b056e4eb15bedd6096dacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f856c12fb6814a36758f765b77dd55') in 0.009866 seconds 
-  Import took 0.013031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-38_comp_light.exr
-  artifactKey: Guid(cb15c180954c22c4088a3192945c34a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-38_comp_light.exr using Guid(cb15c180954c22c4088a3192945c34a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949fa5d584bb12b160e8db4f273df93a') in 0.010503 seconds 
-  Import took 0.014238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-41_comp_light.exr
-  artifactKey: Guid(d850c1e8d030f2f4bb3e728d15749cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-41_comp_light.exr using Guid(d850c1e8d030f2f4bb3e728d15749cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f8a8684a12a993a368cb5ce38327a4') in 0.007971 seconds 
-  Import took 0.011197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-34_comp_light.exr
-  artifactKey: Guid(006d765ad0e56394285fafc6540ed6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-34_comp_light.exr using Guid(006d765ad0e56394285fafc6540ed6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc11f456cdeeb9525cbd5830ef32bfb') in 0.009240 seconds 
-  Import took 0.012988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-32_comp_dir.png
-  artifactKey: Guid(b40c0b80a4e86414db432a59d41e3629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-32_comp_dir.png using Guid(b40c0b80a4e86414db432a59d41e3629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ee5a34ac20164b9822eaaa21d151de') in 0.009802 seconds 
-  Import took 0.013251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-36_comp_dir.png
-  artifactKey: Guid(65411109a946c8a448a0191b7b277c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-36_comp_dir.png using Guid(65411109a946c8a448a0191b7b277c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d45741dfe4308a96634df911530dda') in 0.009804 seconds 
-  Import took 0.013226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-40_comp_light.exr
-  artifactKey: Guid(24744d183f396134288f07ab130040c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-40_comp_light.exr using Guid(24744d183f396134288f07ab130040c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2930b1d7e876e02df0366fc6a825ae1f') in 0.008660 seconds 
-  Import took 0.012951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000552 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-37_comp_dir.png
-  artifactKey: Guid(9f7eedfb4794b3a4aa8fda147baab288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-37_comp_dir.png using Guid(9f7eedfb4794b3a4aa8fda147baab288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf49e96802414bdbfe7242b69f6c71f') in 0.008797 seconds 
-  Import took 0.012429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-44_comp_dir.png
-  artifactKey: Guid(3ce811c240d39504dac2f6e1042e175e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-44_comp_dir.png using Guid(3ce811c240d39504dac2f6e1042e175e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f0b2bd29e74e44c0cccae5b71f30a7') in 0.008688 seconds 
-  Import took 0.012658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-33_comp_light.exr
-  artifactKey: Guid(c82685959f6d05043b77af891fca3aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-33_comp_light.exr using Guid(c82685959f6d05043b77af891fca3aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f7f497d17a8b78bdc80c24bd521101') in 0.010396 seconds 
-  Import took 0.014202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-41_comp_dir.png
-  artifactKey: Guid(82db31703e66fe7478ad0865142fa85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-41_comp_dir.png using Guid(82db31703e66fe7478ad0865142fa85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924981b86579e77271fbef5330669ea2') in 0.010069 seconds 
-  Import took 0.013901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-42_comp_dir.png
-  artifactKey: Guid(4963c8187eb039f41b53949e7fddaf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-42_comp_dir.png using Guid(4963c8187eb039f41b53949e7fddaf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352f550d4d4703f525272b9bf54fcc70') in 0.008845 seconds 
-  Import took 0.013508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-38_comp_dir.png
-  artifactKey: Guid(d9facbac981ea9b4598cd2ff62062114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-38_comp_dir.png using Guid(d9facbac981ea9b4598cd2ff62062114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47238d80e061de10512a4e51ee171dcd') in 0.009425 seconds 
-  Import took 0.014684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000598 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-36_comp_light.exr
-  artifactKey: Guid(2435754b48b1fb54b94ac13d04172f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-36_comp_light.exr using Guid(2435754b48b1fb54b94ac13d04172f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c5addb3e9ffd669737203065c737d7') in 0.009048 seconds 
-  Import took 0.012054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000700 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-43_comp_dir.png
-  artifactKey: Guid(5a86370f87e4bd2419ead0cc2acb856e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-43_comp_dir.png using Guid(5a86370f87e4bd2419ead0cc2acb856e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b01f910ad4d81c5d162a9ec774399cd') in 0.009607 seconds 
-  Import took 0.013447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-45_comp_light.exr
-  artifactKey: Guid(38ec5db531d20614b9edc349fb4b4de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-45_comp_light.exr using Guid(38ec5db531d20614b9edc349fb4b4de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1e1d9b1d0583479d5c1d3592f07f38') in 0.010863 seconds 
-  Import took 0.015358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/ReflectionProbe-1.exr
-  artifactKey: Guid(98584f08e0de1b14ab12023b06d29b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/ReflectionProbe-1.exr using Guid(98584f08e0de1b14ab12023b06d29b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7e31403de43fb5a273b008cf0ef5c4') in 0.064208 seconds 
-  Import took 0.072225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003650 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-35_comp_light.exr
-  artifactKey: Guid(af1118533ac072b4aad4ade54314d12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-35_comp_light.exr using Guid(af1118533ac072b4aad4ade54314d12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be26ddc03a9929be4c58f3420ed6c6c4') in 0.031430 seconds 
-  Import took 0.049543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/ReflectionProbe-0.exr
-  artifactKey: Guid(e1584a1e092822844b5a64665623d849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/ReflectionProbe-0.exr using Guid(e1584a1e092822844b5a64665623d849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0864e49cc043641c70f7d1195ccf0fe3') in 0.046516 seconds 
-  Import took 0.050829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-45_comp_dir.png
-  artifactKey: Guid(f0de60f101ca1fa468252dcba6911de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-45_comp_dir.png using Guid(f0de60f101ca1fa468252dcba6911de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5cd905f91ed7e3d382b3afcd8aeb4a') in 0.012516 seconds 
-  Import took 0.016771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-32_comp_light.exr
-  artifactKey: Guid(1d7eb00f331096f4496fa96d213e547e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-32_comp_light.exr using Guid(1d7eb00f331096f4496fa96d213e547e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341525f6d8dcbda291adcb93b64583ab') in 0.011428 seconds 
-  Import took 0.014775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-43_comp_light.exr
-  artifactKey: Guid(936bd7ebcca396a42a4e6e132f520e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-43_comp_light.exr using Guid(936bd7ebcca396a42a4e6e132f520e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f305e3a693010988ac0204ea84e3316') in 0.009280 seconds 
-  Import took 0.014535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-7_comp_dir.png
-  artifactKey: Guid(c5103396b1f839042b52c3c47bb1d598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-7_comp_dir.png using Guid(c5103396b1f839042b52c3c47bb1d598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ca2f1f5ea763473cef76a132250fb5') in 0.012944 seconds 
-  Import took 0.018972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-8_comp_light.exr
-  artifactKey: Guid(7ec6044ec4fb64340aa315b4c7d5004f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-8_comp_light.exr using Guid(7ec6044ec4fb64340aa315b4c7d5004f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a37970c672d62c26ec614d1e7833242') in 0.010638 seconds 
-  Import took 0.015512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-2_comp_dir.png
-  artifactKey: Guid(1179346c8c8239744b871ad5ea7eb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-2_comp_dir.png using Guid(1179346c8c8239744b871ad5ea7eb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7aba3880fbb2aedd8b23e9d53590efd') in 0.012665 seconds 
-  Import took 0.016855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-15_comp_dir.png
-  artifactKey: Guid(02fb156cf27ce6f4cae69cd8fec84744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-15_comp_dir.png using Guid(02fb156cf27ce6f4cae69cd8fec84744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474082b45cbb2ce92459bfc2b21763d9') in 0.010295 seconds 
-  Import took 0.014066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-3_comp_light.exr
-  artifactKey: Guid(09e76098617cc8745b76c1b5194f3871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-3_comp_light.exr using Guid(09e76098617cc8745b76c1b5194f3871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85805b80b61e04ca818461d389680bb8') in 0.011192 seconds 
-  Import took 0.016712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-10_comp_dir.png
-  artifactKey: Guid(6d6b051cfa7ebc94fa2d5fe41f1463f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-10_comp_dir.png using Guid(6d6b051cfa7ebc94fa2d5fe41f1463f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a99c18f2ae90c3b27e1171b5787792') in 0.012241 seconds 
-  Import took 0.016663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000453 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-29_comp_dir.png
-  artifactKey: Guid(f2f690cfbae71794596344d9205a9111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-29_comp_dir.png using Guid(f2f690cfbae71794596344d9205a9111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea25de67081d51048ddf58e01289f793') in 0.012214 seconds 
-  Import took 0.016311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-13_comp_light.exr
-  artifactKey: Guid(f9a2994cb1029bd47a184c1dbe943f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-13_comp_light.exr using Guid(f9a2994cb1029bd47a184c1dbe943f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8879b5d9e3f7ebf75f685494420324df') in 0.008722 seconds 
-  Import took 0.012365 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000635 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-33_comp_dir.png
-  artifactKey: Guid(32a3c5892ee352f4c91d845d9f312c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-33_comp_dir.png using Guid(32a3c5892ee352f4c91d845d9f312c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9964df710420414d58af1e0eec5a5a3a') in 0.008311 seconds 
-  Import took 0.011811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-31_comp_dir.png
-  artifactKey: Guid(6374e31b4916d264ca31ffa2e6b8058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-31_comp_dir.png using Guid(6374e31b4916d264ca31ffa2e6b8058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff5f230b19cd504f6fe019c8cf7722a') in 0.011163 seconds 
-  Import took 0.014871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-20_comp_dir.png
-  artifactKey: Guid(371dde854f0a4ab478ef999d480478f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-20_comp_dir.png using Guid(371dde854f0a4ab478ef999d480478f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501aa591b24a9ecc1b415b8478d04353') in 0.009900 seconds 
-  Import took 0.013886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-18_comp_light.exr
-  artifactKey: Guid(4b240d5dc680ed94f9657fc677b5f58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-18_comp_light.exr using Guid(4b240d5dc680ed94f9657fc677b5f58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ccc3be8ffe01e9ec185949102bfebb') in 0.008550 seconds 
-  Import took 0.011943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-35_comp_dir.png
-  artifactKey: Guid(3a6c8694e5d22414283eb74736db2624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-35_comp_dir.png using Guid(3a6c8694e5d22414283eb74736db2624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f4074bbcd547cf2a0de34e21697393') in 0.009943 seconds 
-  Import took 0.013695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-39_comp_light.exr
-  artifactKey: Guid(6a8be7e83d2e19943b122f44b529232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-39_comp_light.exr using Guid(6a8be7e83d2e19943b122f44b529232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9183abb8b58e5b735007a35f74b377') in 0.008697 seconds 
-  Import took 0.012088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-17_comp_light.exr
-  artifactKey: Guid(c080766be450c8145900b5e1e0d14f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/ExampleScene/Lightmap-17_comp_light.exr using Guid(c080766be450c8145900b5e1e0d14f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05fd7035bb1e889e569c9e8fa6f1d6e') in 0.009248 seconds 
-  Import took 0.013530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.221261 seconds.
-  path: Assets/HQ Hangar Free/Scene/New Lighting Settings.lighting
-  artifactKey: Guid(a202657a7afed9d4a979ab5ce3c55803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Scene/New Lighting Settings.lighting using Guid(a202657a7afed9d4a979ab5ce3c55803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 2.
- -> (artifact id: '3c386e047beebdff67db29986a5dd081') in 0.004983 seconds 
-  Import took 0.007613 seconds .
+  path: Assets/FPSHangar
+  artifactKey: Guid(822a95aef120c924c97c84dc7b7de0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPSHangar using Guid(822a95aef120c924c97c84dc7b7de0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08d847d0e4f036d0b3900670a2fffdd') in 0.011168 seconds 
+  Import took 0.016685 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005801 seconds.
+Registered in 0.005311 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.909 seconds
+- Completed reload, in  0.845 seconds
 Domain Reload Profiling:
-	ReloadAssembly (910ms)
-		BeginReloadAssembly (154ms)
+	ReloadAssembly (845ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (694ms)
-			LoadAssemblies (152ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (692ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (221ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (266ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (131ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
-Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
-Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3166 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.8 MB.
-System memory in use after: 140.4 MB.
-
-Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 3643.
-Total: 3.632800 ms (FindLiveObjects: 0.174600 ms CreateObjectMapping: 0.077500 ms MarkObjects: 2.052200 ms  DeleteObjects: 1.327700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004219 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invalid AssetDatabase path: /Editor/EditorResources/cm_logo_sm.png. Use path relative to the project folder.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.Texture2D> (string)
-Cinemachine.Editor.CinemachineSettings:get_CinemachineLogoTexture () (at Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Windows/CinemachineSettings.cs:205)
-Cinemachine.Editor.CinemachineSettings:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Windows/CinemachineSettings.cs:261)
-Cinemachine.CinemachineColliderPrefs:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Windows/CinemachineColliderPrefs.cs:61)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Windows/CinemachineSettings.cs line 205]
-
-Invalid AssetDatabase path: /Editor/EditorResources/cm_logo_sm.png. Use path relative to the project folder.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.Texture2D> (string)
-Cinemachine.Editor.CinemachineSettings:get_CinemachineLogoTexture () (at Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Windows/CinemachineSettings.cs:205)
-Cinemachine.Editor.CinemachineSettings:OnPackageLoadedInEditor () (at Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Windows/CinemachineSettings.cs:246)
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Windows/CinemachineSettings.cs line 205]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.810 seconds
-Domain Reload Profiling:
-	ReloadAssembly (810ms)
-		BeginReloadAssembly (126ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (634ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (213ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (251ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (148ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3313 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.0 MB.
-System memory in use after: 145.7 MB.
-
-Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 3792.
-Total: 4.214800 ms (FindLiveObjects: 0.206500 ms CreateObjectMapping: 0.084300 ms MarkObjects: 2.381300 ms  DeleteObjects: 1.541700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 569.228470 seconds.
-  path: Assets/HQ Hangar Free/Models
-  artifactKey: Guid(cb067e1f7d2f6a64fa9339b83bc1efc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Models using Guid(cb067e1f7d2f6a64fa9339b83bc1efc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aff4212c705bf28bcc0e25acae470a7') in 0.015775 seconds 
-  Import took 0.022802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034327 seconds.
-  path: Assets/HQ Hangar Free/Models/Hangar_part_01.fbx
-  artifactKey: Guid(d08605b992248f948b207f9e2131d3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Models/Hangar_part_01.fbx using Guid(d08605b992248f948b207f9e2131d3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b85bef0d331bec009908496067b4d3') in 0.158357 seconds 
-  Import took 0.164686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/HQ Hangar Free/Models/Hangar_part_04.fbx
-  artifactKey: Guid(c64e0fe5c5b818b4caa57dbe73fba718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Models/Hangar_part_04.fbx using Guid(c64e0fe5c5b818b4caa57dbe73fba718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d783abc653ab2da96a86220697d614') in 0.026641 seconds 
-  Import took 0.033492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/HQ Hangar Free/Models/Hangar_part_03.fbx
-  artifactKey: Guid(eba32488b0945284782f635422a29933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Models/Hangar_part_03.fbx using Guid(eba32488b0945284782f635422a29933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf978619a8e366d25bf7276a460e042f') in 0.051277 seconds 
-  Import took 0.056330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/HQ Hangar Free/Models/Hangar_part_05.fbx
-  artifactKey: Guid(8fdf8ee6372027f47ad9727f006fc763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Models/Hangar_part_05.fbx using Guid(8fdf8ee6372027f47ad9727f006fc763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bef3c763252677f5f9271248295e216') in 0.034278 seconds 
-  Import took 0.039467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/HQ Hangar Free/Models/Hangar_part_02.fbx
-  artifactKey: Guid(2b88f6c715b28c14287c01b9536ada06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Models/Hangar_part_02.fbx using Guid(2b88f6c715b28c14287c01b9536ada06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8af6ad4f0676548aaed1d8b74a0af0c') in 0.039836 seconds 
-  Import took 0.044547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.158276 seconds.
-  path: Assets/HQ Hangar Free/Prefabs
-  artifactKey: Guid(5d5be74c01d368c42bdc033b7b966bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Prefabs using Guid(5d5be74c01d368c42bdc033b7b966bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813f020ae43d66b2f7e0c6ca696dbfe3') in 0.005726 seconds 
-  Import took 0.010553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.045153 seconds.
-  path: Assets/HQ Hangar Free/Prefabs/Floor.prefab
-  artifactKey: Guid(87fbfc3224b1b454cb612fc112128a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Prefabs/Floor.prefab using Guid(87fbfc3224b1b454cb612fc112128a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4345bae236c6905fa3a91c28f0cc2b46') in 0.013214 seconds 
-  Import took 0.017925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/HQ Hangar Free/Prefabs/Hangar_part_05.prefab
-  artifactKey: Guid(219d51f7f380a7f4093f3fd1215a118d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Prefabs/Hangar_part_05.prefab using Guid(219d51f7f380a7f4093f3fd1215a118d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf75797804b12f86ec1eec90f067b94') in 0.014669 seconds 
-  Import took 0.019686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/HQ Hangar Free/Prefabs/Hangar_part_04.prefab
-  artifactKey: Guid(ebf1084dd427fdf47bcda95f4d7d960c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Prefabs/Hangar_part_04.prefab using Guid(ebf1084dd427fdf47bcda95f4d7d960c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ec67025669ca38e1b3658a167927ef') in 0.014850 seconds 
-  Import took 0.019754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000622 seconds.
-  path: Assets/HQ Hangar Free/Prefabs/Hangar_part_01.prefab
-  artifactKey: Guid(4fbefc7b93407ce4c9601f64d1bf35a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Prefabs/Hangar_part_01.prefab using Guid(4fbefc7b93407ce4c9601f64d1bf35a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270934f3dfb53b8e4be7cb097052587a') in 0.013876 seconds 
-  Import took 0.021220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000671 seconds.
-  path: Assets/HQ Hangar Free/Prefabs/Hangar_part_03.prefab
-  artifactKey: Guid(5b8a7ba67a2fe244b9233063b154d924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Prefabs/Hangar_part_03.prefab using Guid(5b8a7ba67a2fe244b9233063b154d924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8834d85b934451d7509aa06f08d78eed') in 0.015759 seconds 
-  Import took 0.021094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/HQ Hangar Free/Prefabs/Hangar_part_02.prefab
-  artifactKey: Guid(291c0ca312755dd46aa73682c956d4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Prefabs/Hangar_part_02.prefab using Guid(291c0ca312755dd46aa73682c956d4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2cc3a358f2d8aa126913f6fb7e5605') in 0.014896 seconds 
-  Import took 0.019740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 261.399859 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.003870 seconds 
-  Import took 0.008855 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004171 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.968 seconds
-Domain Reload Profiling:
-	ReloadAssembly (968ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (809ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (248ms)
+			SetupTypeCache (229ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (350ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (263ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3838 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.7 MB.
-System memory in use after: 161.3 MB.
-
-Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 4319.
-Total: 4.093000 ms (FindLiveObjects: 0.218200 ms CreateObjectMapping: 0.096600 ms MarkObjects: 2.225800 ms  DeleteObjects: 1.551400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007291 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.897 seconds
-Domain Reload Profiling:
-	ReloadAssembly (897ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (728ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (231ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (286ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (156ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (151ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3978 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.4 MB.
-System memory in use after: 165.0 MB.
+Unloading 3915 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.7 MB.
+System memory in use after: 168.9 MB.
 
-Unloading 80 unused Assets to reduce memory usage. Loaded Objects now: 4463.
-Total: 4.796400 ms (FindLiveObjects: 0.236200 ms CreateObjectMapping: 0.104400 ms MarkObjects: 2.441500 ms  DeleteObjects: 2.013400 ms)
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 4561.
+Total: 2.961300 ms (FindLiveObjects: 0.214200 ms CreateObjectMapping: 0.104100 ms MarkObjects: 2.581700 ms  DeleteObjects: 0.060500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1337,60 +200,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 337.095334 seconds.
-  path: Assets/HQ Hangar Free/Materials
-  artifactKey: Guid(f3b1d4c4b0f987241b475abfca5c55f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Materials using Guid(f3b1d4c4b0f987241b475abfca5c55f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4189d5c1dcfb18930b24ec7a3d50c2') in 0.010500 seconds 
-  Import took 0.020493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037048 seconds.
-  path: Assets/HQ Hangar Free/Materials/Concret_floor_wet.mat
-  artifactKey: Guid(be21f5838915e1041896868ceeffc3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Materials/Concret_floor_wet.mat using Guid(be21f5838915e1041896868ceeffc3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1655e45a6b0bff8855b0e9939c9db2a') in 0.056609 seconds 
-  Import took 0.062474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/HQ Hangar Free/Materials/Gray.mat
-  artifactKey: Guid(22536ae77cec7404d831f91e71353110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Materials/Gray.mat using Guid(22536ae77cec7404d831f91e71353110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db7479a839c1a7fdb66925e6a3378ee') in 0.014790 seconds 
-  Import took 0.020049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/HQ Hangar Free/Materials/Metals_trim.mat
-  artifactKey: Guid(b6ea9ca3819cebc42a9e3d2ac2893913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Materials/Metals_trim.mat using Guid(b6ea9ca3819cebc42a9e3d2ac2893913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8294f68433521656edca9fa5ee18e0bb') in 0.018362 seconds 
-  Import took 0.023408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/HQ Hangar Free/Materials/Glass.mat
-  artifactKey: Guid(864f3c81f8e2c5a4386e7ef3e6ab2c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Materials/Glass.mat using Guid(864f3c81f8e2c5a4386e7ef3e6ab2c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78006a782d7f079c3d12617853f1cdb') in 0.016892 seconds 
-  Import took 0.022280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000479 seconds.
-  path: Assets/HQ Hangar Free/Materials/Sheet_metal.mat
-  artifactKey: Guid(94fd1101550f8354f92d44d9edd8b0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Materials/Sheet_metal.mat using Guid(94fd1101550f8354f92d44d9edd8b0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d36ed6fa66f6259ac3554ae6b6262f') in 0.017001 seconds 
-  Import took 0.022803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 144.068690 seconds.
-  path: Assets/HQ Hangar Free/Textures
-  artifactKey: Guid(b7f18d3896c99bf4c84f36f1279b337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HQ Hangar Free/Textures using Guid(b7f18d3896c99bf4c84f36f1279b337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e967aeb72cf586c583c0f777ad19ac3b') in 0.013361 seconds 
-  Import took 0.019922 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
