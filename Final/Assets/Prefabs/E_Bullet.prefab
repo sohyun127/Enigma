@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7883340981677775934}
   - component: {fileID: 3523357786822423981}
   - component: {fileID: 3607631214036698473}
-  - component: {fileID: 3159829384404676063}
   m_Layer: 7
   m_Name: E_Bullet
   m_TagString: Bullet
@@ -27,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4345938952054444280}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.555, y: 0, z: 4.075}
+  m_LocalPosition: {x: 0, y: 0, z: 4.206}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 4983967605911121813}
@@ -63,18 +62,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!75 &3159829384404676063
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4345938952054444280}
-  m_Enabled: 1
-  m_Force: {x: 0, y: 0, z: 0}
-  m_RelativeForce: {x: 0, y: 0, z: 100}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1001 &4983967605911254293
 PrefabInstance:
   m_ObjectHideFlags: 0

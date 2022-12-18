@@ -30,6 +30,8 @@ public class EnemyFire : MonoBehaviour
     float fireRate = 1.5f;
     //주인공을 향해 회전할 속도 계수
     float damping = 10.0f;
+    //총알 발사 속도
+    public float speed = 1000.0f;
 
     void Start()
     {
@@ -74,9 +76,10 @@ public class EnemyFire : MonoBehaviour
         muzzleFlash.Play();
 
         //총알을 생성
-        GameObject _bullet = Instantiate(Bullet, firePos.position, firePos.rotation);
-        Rigidbody rigidBullet = _bullet.GetComponent<Rigidbody>();
-        rigidBullet.velocity = playerTr.position * 100;
+         GameObject _bullet = Instantiate(Bullet, firePos.position, firePos.rotation);
+         Rigidbody rigidBullet = _bullet.GetComponent<Rigidbody>();
+         //enemy앞으로 발사
+         rigidBullet.AddForce(enemyTr.forward*speed);
 
 
         //일정 시간이 지난 후 삭제
