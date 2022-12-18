@@ -6,7 +6,8 @@ TagManager:
   tags:
   - Bullet
   - Enemy
-  - Target
+  - Heal
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
@@ -16,9 +17,9 @@ TagManager:
   - UI
   - Player
   - Bullet
+  - 
+  - Bomb
   - Enemy
-  - 
-  - 
   - 
   - 
   - 
